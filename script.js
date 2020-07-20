@@ -85,28 +85,28 @@ const questions = [
         ]
     },
     {
-        question: 'Who is the best YouTuber?',
+        question: 'Which one of these is a JavaScript package manager',
         answers: [
-            { text: 'Web Dev Simplified', correct: true },
-            { text: 'Traversy Media', correct: true },
-            { text: 'Dev Ed', correct: true },
-            { text: 'Fun Fun Function', correct: true }
+            { text: 'Node.js', correct: false },
+            { text: 'Type.script', correct: false },
+            { text: 'Npm', correct: true },
+            { text: 'CSS', correct: false }
         ]
     },
     {
-        question: 'Is web development fun?',
+        question: 'Inisde which HTML element do we put the JavaScript?',
         answers: [
-            { text: 'Kinda', correct: false },
-            { text: 'YES!!!', correct: true },
-            { text: 'Um no', correct: false },
-            { text: 'IDK', correct: false }
+            { text: '<scripting>', correct: false },
+            { text: '<script>', correct: true },
+            { text: '<java>', correct: false },
+            { text: '<js>', correct: false }
         ]
     },
     {
-        question: 'What is 4 * 2?',
+        question: 'How do you terminate a command',
         answers: [
-            { text: '6', correct: false },
-            { text: '8', correct: true }
+            { text: '/', correct: false },
+            { text: ';', correct: true }
         ]
     }
 ]
